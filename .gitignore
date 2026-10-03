@@ -1,0 +1,6 @@
+prepare.py
+pages-config.json
+verify-deployment.cjs
+deployment-checks.json
+*.png
+!assets/*.png
