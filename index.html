@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ANTALA VPDRN · 01–08 화면 비교</title>
+<title>ANTALA VPDRN · 01–09 화면 비교</title>
 <style>
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -13,8 +13,8 @@
   .top-inner { max-width: 1660px; margin: auto; padding: 22px 28px 18px; }
   h1 { margin: 0 0 6px; font-size: 28px; font-weight: 650; letter-spacing: -.03em; }
   .intro { margin: 0; color: #bcb9bd; font-size: 14px; }
-  nav { display: flex; gap: 8px; margin-top: 16px; }
-  nav a { padding: 8px 12px; border: 1px solid #4b474b; border-radius: 6px; color: #f1f0ef; font-size: 13px; text-decoration: none; }
+  nav { display: flex; gap: 8px; margin-top: 16px; max-width: 100%; overflow-x: auto; }
+  nav a { flex: 0 0 auto; padding: 8px 12px; border: 1px solid #4b474b; border-radius: 6px; color: #f1f0ef; font-size: 13px; text-decoration: none; }
   nav a:hover, nav a:focus-visible { border-color: #b79ba5; background: #33282e; }
   .scroll-hint { display: none; margin: 10px 0 0; color: #d2bbc3; font-size: 12px; }
   .gallery-scroll { overflow-x: auto; }
@@ -44,7 +44,7 @@
 <body>
   <header class="top">
     <div class="top-inner">
-      <h1>ANTALA VPDRN · 01–08 화면 비교</h1>
+      <h1>ANTALA VPDRN · 01–09 화면 비교</h1>
       <p class="intro">같은 번호의 시안을 한 행에서 비교합니다. 이미지를 누르면 원본 크기의 그림이 열립니다.</p>
       <nav aria-label="화면 바로가기">
       <a href="#screen-1">01</a>
@@ -55,6 +55,7 @@
       <a href="#screen-6">06</a>
       <a href="#screen-7">07</a>
       <a href="#screen-8">08</a>
+      <a href="#screen-9">09</a>
       </nav>
       <p class="scroll-hint">A/B는 같은 행에 있습니다. 좌우로 스크롤해 비교하세요.</p>
     </div>
@@ -207,7 +208,8 @@
           </a>
         </figure>
       </div>
-    </section>    <section class="row" id="screen-8" aria-labelledby="title-8">
+    </section>
+    <section class="row" id="screen-8" aria-labelledby="title-8">
       <div class="row-head">
         <span class="number">08</span>
         <h2 id="title-8">원료의 특성에 관한 연구</h2>
@@ -227,7 +229,29 @@
           </a>
         </figure>
       </div>
-    </section>    </main>
+    </section>
+    <section class="row" id="screen-9" aria-labelledby="title-9">
+      <div class="row-head">
+        <span class="number">09</span>
+        <h2 id="title-9">인체연구를 읽기 위한 조건</h2>
+        <span class="status">A/B 비교 · 선택 전</span>
+      </div>
+      <div class="pair">
+        <figure class="cell">
+          <figcaption>시안 A</figcaption>
+          <a href="assets/section-09-A.png" target="_blank" rel="noopener" aria-label="09 시안 A 원본 이미지 열기">
+            <img loading="lazy" decoding="async" src="assets/section-09-A.png" alt="09 인체연구를 읽기 위한 조건 시안 A">
+          </a>
+        </figure>
+        <figure class="cell">
+          <figcaption>시안 B</figcaption>
+          <a href="assets/section-09-B.png" target="_blank" rel="noopener" aria-label="09 시안 B 원본 이미지 열기">
+            <img loading="lazy" decoding="async" src="assets/section-09-B.png" alt="09 인체연구를 읽기 위한 조건 시안 B">
+          </a>
+        </figure>
+      </div>
+    </section>
+    </main>
   </div>
 </body>
 </html>
